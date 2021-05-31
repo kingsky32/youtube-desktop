@@ -1,7 +1,12 @@
 import React from 'react';
+import Provider from './templates/Provider';
 
 const App = (): React.ReactElement => {
-  return <div />;
+  return (
+    <Provider>
+      <div />
+    </Provider>
+  );
 };
 
 export default App;
